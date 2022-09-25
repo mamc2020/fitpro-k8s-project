@@ -20,7 +20,7 @@ spec:
       - env:
         - name: spring.rabbitmq.host
           value: rabbitmqsvc
-        image: shwetashukla23/emailservice:latest
+        image: jinglex/emailservice:latest
         name: email-service-container
         ports:
         - containerPort: 8088
